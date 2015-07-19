@@ -1,0 +1,1645 @@
+# この viminfo ファイルは Vim 7.2 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/report
+
+# 最後の Substitute 検索パターン:
+~MSle0&this->refund
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:q
+:w
+:vs ~/htdocs/raksul.com/lib.php
+:Gblame
+:vs EcAdminBundle/Resources/views/NP/reregisterIndex.html.twig
+:vs EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+:vs EcBundle/Entity/Repository/UserRepository.php
+:vs EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+:vs EcAdminBundle/Controller/NPController.php
+:vs EcBundle/Entity/Repository/EcOrderItemRepository.php
+:vs EcBundle/Entity/EcOrder.php
+:vs EcBundle/Entity/Repository/
+:vs EcAdminBundle/Resources/views/NP/index.html.twig
+:vs EcAdminBundle/Resources/views/NP/reregister.html.twig
+:vs ~/htdocs/raksul.com/lib_mypage/shop_buy_step2.php
+:vs EcAdminBundle/Controller/
+:vs ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+:vs
+:q!
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/report
+?/payment
+?/biz
+?/b
+?/請求総額
+?/金額
+?/sync_
+?/GMO
+?/to_pre
+?/update
+?/1203
+?/hidd
+?/form
+?/nps
+?/or
+?/user
+?/Np
+?/zip
+?/crm_
+?/itemname
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	        $to->setTime(23, 59, 59);
+"1	LINE	0
+	        echo ($to->format('Y-m-d H:i:s')) . PHP_EOL;
+	        die($from->format('Y-m-d H:i:s'));
+"2	LINE	0
+	        $from = new \DateTime($input->getArgument('from'));
+"3	LINE	0
+	            ->addArgument(
+	               'to',
+	               InputArgument::OPTIONAL,
+	               '終了日を指定(strtotimeでよしなに変換)'
+	            );
+"4	LINE	0
+	            ->addArgument(
+	               'from',
+	               InputArgument::REQUIRED,
+	               '開始日を指定(strtotimeでよしなに変換)'
+	            )
+"5	LINE	0
+	    const PAYMENT_BIZ = 'biz';
+"6	LINE	0
+	        <tr>
+	          <td colspan="4" class="text-center">
+	            <a href="#" id="crm-comment-more" >コメントを更に表示</a>
+	          </td>
+	        </tr>
+	      {% endif %}
+"7	LINE	0
+	      {% if crmComments | length > 3 %}
+"8	LINE	0
+	      e
+"9	LINE	0
+	    <div class="col-sm-3"><a href="{{ constant('HTTP_ADMIN_RAKSUL') }}shop/order_specifics.php?order_id={{ order.orderId }}" target="_blank"><span class="glyphicon glyphicon-wrench btn-lg"></span>こだわり編集</a></span></div>
+"a	CHAR	0
+	
+"k	CHAR	0
+	2998gg
+""-	CHAR	0
+	 2015/06/01 yesterday
+
+# ファイルマーク:
+'0  117  99  ~/htdocs/etc/cron/crontab
+'1  2999  15  ~/htdocs/raksul.com/lib.php
+'2  31  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+'3  31  31  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcOrder.php
+'4  10  47  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcPaymentOrderNpCredit.php
+'5  702  28  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+'6  4193  0  ~/htdocs/raksul.com/lib.php
+'7  1799  0  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+'8  1996  0  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+'9  113  56  ~/htdocs/batch/ec/order_to_partner.php
+
+# ジャンプリスト (新しいものが先):
+-'  117  99  ~/htdocs/etc/cron/crontab
+-'  114  0  ~/htdocs/etc/cron/crontab
+-'  1  0  ~/htdocs/etc/cron/crontab
+-'  2999  15  ~/htdocs/raksul.com/lib.php
+-'  4193  4  ~/htdocs/raksul.com/lib.php
+-'  31  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+-'  32  8  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+-'  29  29  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+-'  1  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+-'  31  31  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcOrder.php
+-'  13  1  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcOrder.php
+-'  10  47  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcPaymentOrderNpCredit.php
+-'  11  1  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcPaymentOrderNpCredit.php
+-'  702  28  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  697  93  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  362  30  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  687  28  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  654  0  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  366  16  ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+-'  4175  0  ~/htdocs/raksul.com/lib.php
+-'  1799  0  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+-'  1953  20  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+-'  1864  28  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+-'  1996  0  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+-'  321  4  ~/htdocs/admin.raksul.com/shop/order_specifics.php
+-'  113  56  ~/htdocs/batch/ec/order_to_partner.php
+-'  1  0  ~/htdocs/batch/ec/order_to_partner.php
+-'  54  2  ~/htdocs/admin.raksul.com/shop/order/printnet.php
+-'  54  0  /tmp/vRYHHIz/1.fugitiveblame
+-'  325  0  /tmp/vRYHHIz/1.fugitiveblame
+-'  325  22  ~/htdocs/admin.raksul.com/shop/order/printnet.php
+-'  258  8  ~/htdocs/admin.raksul.com/shop/order/printnet.php
+-'  79  0  ~/htdocs/admin.raksul.com/shop/order/printnet.php
+-'  322  3  ~/htdocs/admin.raksul.com/shop/order/printnet.php
+-'  202  33  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  224  4  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  188  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  6  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  10  18  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  4  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+-'  30  7  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/UserRepository.php
+-'  25  8  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  8  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  26  13  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  30  13  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  34  101  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  50  9  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  45  5  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  1  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  94  13  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  90  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  48  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  29  27  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  41  4  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  40  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  44  7  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  42  6  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  20  8  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+-'  28  12  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+-'  18  11  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+-'  11  4  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+-'  1  0  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+-'  90  4  ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcPaymentOrderNpCredit.php
+-'  50  16  ~/htdocs/symfony/src/Raksul/NERD_tree_1
+-'  15  0  ~/htdocs/symfony/src/Raksul/NERD_tree_1
+-'  64  2  ~/htdocs/symfony/src/Raksul/NERD_tree_1
+-'  1  0  ~/htdocs/symfony/src/Raksul/NERD_tree_1
+-'  53  8  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  43  17  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  95  12  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  96  12  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+-'  203  10  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  248  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  187  5  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  5  5  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  6  2  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  186  11  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  50  9  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  23  5  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  47  3  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  27  3  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  22  1  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  251  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  45  9  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  21  14  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  13  0  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  174  28  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  145  6  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  11  4  ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+-'  890  2  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  835  85  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  836  35  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  216  97  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  213  97  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  212  91  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  1282  65  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  1258  87  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  1249  9  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+-'  1128  11  ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/htdocs/etc/cron/crontab
+	"	117	99
+	.	117	99
+	+	117	99
+
+> ~/htdocs/raksul.com/lib.php
+	"	2999	15
+	^	2999	19
+	.	2999	0
+	+	2189	0
+	+	3019	39
+	+	3000	0
+	+	3000	0
+	+	2999	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Command/AccountingReportCommand.php
+	"	31	0
+	^	31	0
+	.	31	0
+	+	21	0
+	+	20	12
+	+	21	0
+	+	29	0
+	+	32	26
+	+	32	14
+	+	29	29
+	+	32	30
+	+	34	41
+	+	34	12
+	+	29	58
+	+	32	0
+	+	30	10
+	+	29	40
+	+	34	50
+	+	30	31
+	+	33	29
+	+	34	0
+	+	31	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcOrder.php
+	"	31	31
+	^	31	32
+	.	31	31
+	+	24	0
+	+	23	0
+	+	32	0
+	+	24	38
+	+	25	105
+	+	25	3
+	+	26	0
+	+	25	21
+	+	26	10
+	+	27	19
+	+	28	22
+	+	29	20
+	+	29	18
+	+	30	24
+	+	31	0
+	+	30	10
+	+	29	10
+	+	31	31
+	+	679	4
+	+	678	24
+	+	29	0
+	+	24	44
+	+	25	30
+	+	26	31
+	+	25	31
+	+	24	32
+	+	27	31
+	+	28	32
+	+	30	31
+	+	31	31
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Entity/EcPaymentOrderNpCredit.php
+	"	10	47
+	^	11	88
+	.	11	87
+	+	261	0
+	+	255	0
+	+	261	32
+	+	263	49
+	+	25	0
+	+	15	149
+	+	15	0
+	+	16	0
+	+	15	0
+	+	23	0
+	+	15	11
+	+	16	18
+	+	17	18
+	+	18	18
+	+	19	18
+	+	20	18
+	+	21	18
+	+	22	18
+	+	23	11
+	+	22	11
+	+	22	11
+	+	21	0
+	+	20	11
+	+	21	11
+	+	19	11
+	+	18	11
+	+	17	11
+	+	16	11
+	+	24	0
+	+	256	0
+	+	260	0
+	+	261	41
+	+	263	15
+	+	11	30
+	+	11	87
+
+> ~/htdocs/raksul.com/lib_prchs/RkslPayBatch.php
+	"	702	28
+	.	365	0
+	+	365	0
+
+> ~/htdocs/admin.raksul.com/shop/order_specifics.php
+	"	1799	0
+	.	3143	0
+	+	3143	0
+
+> ~/htdocs/batch/ec/order_to_partner.php
+	"	113	56
+
+> ~/htdocs/admin.raksul.com/shop/order/printnet.php
+	"	54	2
+	.	323	0
+	+	322	0
+	+	322	0
+	+	323	47
+	+	327	45
+	+	323	0
+	+	322	0
+	+	322	55
+	+	322	44
+	+	318	28
+	+	318	0
+	+	323	0
+
+> /tmp/vRYHHIz/1.fugitiveblame
+	"	54	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/NPController.php
+	"	74	12
+	^	75	19
+	.	74	0
+	+	74	93
+	+	74	114
+	+	74	118
+	+	67	35
+	+	69	28
+	+	74	15
+	+	73	63
+	+	73	0
+	+	73	24
+	+	70	49
+	+	72	12
+	+	73	0
+	+	71	51
+	+	73	0
+	+	71	45
+	+	73	17
+	+	74	21
+	+	87	29
+	+	75	48
+	+	84	12
+	+	65	21
+	+	64	0
+	+	65	15
+	+	76	49
+	+	86	12
+	+	85	82
+	+	85	138
+	+	85	74
+	+	77	43
+	+	83	61
+	+	83	0
+	+	78	0
+	+	83	22
+	+	83	22
+	+	81	49
+	+	82	74
+	+	80	0
+	+	83	0
+	+	83	22
+	+	84	0
+	+	83	32
+	+	76	40
+	+	74	12
+	+	75	19
+	+	91	33
+	+	74	12
+	+	75	16
+	+	87	0
+	+	69	0
+	+	68	0
+	+	18	0
+	+	41	0
+	+	20	33
+	+	22	48
+	+	40	0
+	+	40	106
+	+	40	0
+	+	40	95
+	+	40	21
+	+	20	26
+	+	22	34
+	+	20	54
+	+	44	69
+	+	46	33
+	+	24	0
+	+	40	14
+	+	40	13
+	+	40	0
+	+	26	14
+	+	24	11
+	+	26	31
+	+	28	8
+	+	27	42
+	+	29	27
+	+	29	0
+	+	29	85
+	+	29	110
+	+	29	14
+	+	40	0
+	+	39	12
+	+	35	14
+	+	39	0
+	+	36	15
+	+	37	32
+	+	38	29
+	+	31	37
+	+	33	8
+	+	32	44
+	+	34	0
+	+	34	0
+	+	34	83
+	+	34	99
+	+	34	101
+	+	34	13
+	+	25	23
+	+	25	0
+	+	34	97
+	+	74	12
+	+	75	0
+	+	74	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregister.html.twig
+	"	1	0
+	^	249	2
+	.	249	1
+	+	83	5
+	+	84	4
+	+	85	11
+	+	84	6
+	+	85	6
+	+	86	0
+	+	87	12
+	+	88	12
+	+	89	12
+	+	90	12
+	+	91	12
+	+	92	12
+	+	94	9
+	+	95	0
+	+	96	6
+	+	97	5
+	+	98	6
+	+	98	6
+	+	141	4
+	+	143	2
+	+	144	2
+	+	142	3
+	+	50	3
+	+	142	2
+	+	82	7
+	+	83	0
+	+	70	0
+	+	81	9
+	+	141	5
+	+	143	3
+	+	144	3
+	+	142	5
+	+	50	5
+	+	145	5
+	+	183	3
+	+	152	0
+	+	201	6
+	+	203	0
+	+	204	12
+	+	205	12
+	+	206	12
+	+	207	12
+	+	208	14
+	+	209	12
+	+	210	9
+	+	212	0
+	+	214	0
+	+	216	9
+	+	217	9
+	+	218	46
+	+	218	11
+	+	219	0
+	+	221	0
+	+	234	0
+	+	220	12
+	+	235	12
+	+	237	9
+	+	238	8
+	+	239	5
+	+	241	0
+	+	242	0
+	+	247	0
+	+	248	0
+	+	250	18
+	+	147	102
+	+	147	112
+	+	147	124
+	+	147	132
+	+	175	25
+	+	174	19
+	+	11	0
+	+	10	0
+	+	251	9
+	+	12	100
+	+	12	110
+	+	20	0
+	+	14	24
+	+	16	15
+	+	15	35
+	+	14	23
+	+	15	49
+	+	20	0
+	+	11	80
+	+	11	86
+	+	17	31
+	+	19	14
+	+	18	27
+	+	13	0
+	+	13	0
+	+	12	119
+	+	43	30
+	+	153	67
+	+	251	0
+	+	5	1
+	+	23	3
+	+	47	3
+	+	23	5
+	+	47	5
+	+	187	0
+	+	249	1
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/index.html.twig
+	"	4	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/htdocs/symfony/src/Raksul/NERD_tree_1
+	"	50	16
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcOrderItemRepository.php
+	"	7	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/EcPaymentOrderNpCreditRepository.php
+	"	25	5
+	^	15	7
+	.	15	6
+	+	1	0
+	+	29	0
+	+	9	34
+	+	11	38
+	+	28	4
+	+	8	0
+	+	28	0
+	+	18	30
+	+	18	0
+	+	28	0
+	+	18	30
+	+	21	0
+	+	19	24
+	+	6	49
+	+	19	61
+	+	21	0
+	+	21	10
+	+	28	0
+	+	20	35
+	+	21	0
+	+	18	17
+	+	23	33
+	+	25	8
+	+	24	41
+	+	27	22
+	+	26	0
+	+	13	0
+	+	16	0
+	+	13	7
+	+	15	6
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterIndex.html.twig
+	"	15	8
+	.	14	10
+	+	45	0
+	+	44	0
+	+	44	14
+	+	44	12
+	+	44	10
+	+	43	9
+	+	43	0
+	+	13	12
+	+	9	17
+	+	12	14
+	+	13	11
+	+	12	14
+	+	11	11
+	+	11	0
+	+	16	27
+	+	42	15
+	+	42	19
+	+	16	25
+	+	20	31
+	+	27	14
+	+	21	30
+	+	23	6
+	+	22	43
+	+	23	0
+	+	21	35
+	+	27	10
+	+	28	41
+	+	30	0
+	+	12	0
+	+	10	10
+	+	23	0
+	+	24	0
+	+	26	25
+	+	20	0
+	+	20	40
+	+	33	0
+	+	31	30
+	+	32	38
+	+	42	0
+	+	20	34
+	+	16	0
+	+	17	0
+	+	20	0
+	+	18	0
+	+	15	8
+	+	10	0
+	+	8	7
+	+	19	5
+	+	21	0
+	+	41	7
+	+	27	28
+	+	7	20
+	+	34	0
+	+	35	20
+	+	36	73
+	+	38	0
+	+	40	0
+	+	38	9
+	+	39	82
+	+	39	83
+	+	39	110
+	+	39	122
+	+	39	11
+	+	39	111
+	+	39	34
+	+	44	0
+	+	4	0
+	+	6	0
+	+	5	41
+	+	15	0
+	+	14	10
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Entity/Repository/UserRepository.php
+	"	30	7
+	^	33	23
+	.	33	22
+	+	26	47
+	+	27	5
+	+	34	0
+	+	28	17
+	+	30	33
+	+	32	8
+	+	31	36
+	+	33	22
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/NP/reregisterEdit.html.twig
+	"	202	33
+	.	202	33
+	+	11	51
+	+	240	0
+	+	202	33
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/ImpositionController.php
+	"	5	37
+
+> ~/htdocs/raksul.com/lib_prchs/RkslPayPurchase.php
+	"	894	2
+	.	836	0
+	+	1075	42
+	+	1075	8
+	+	1072	26
+	+	1070	0
+	+	1072	12
+	+	1075	7
+	+	1072	41
+	+	1074	8
+	+	1075	0
+	+	1072	99
+	+	1072	109
+	+	1072	122
+	+	1074	63
+	+	1074	72
+	+	1074	0
+	+	1072	14
+	+	1074	29
+	+	1072	29
+	+	1074	19
+	+	1072	16
+	+	1075	43
+	+	1072	0
+	+	1072	9
+	+	1072	63
+	+	1074	63
+	+	1075	0
+	+	1074	0
+	+	1072	73
+	+	1074	0
+	+	1073	0
+	+	1072	78
+	+	1073	27
+	+	1074	14
+	+	1055	0
+	+	1062	0
+	+	1063	97
+	+	1075	0
+	+	1075	45
+	+	1074	0
+	+	1072	0
+	+	1074	0
+	+	1074	16
+	+	1074	0
+	+	1074	15
+	+	1074	0
+	+	1072	39
+	+	1075	88
+	+	1075	83
+	+	1072	19
+	+	1033	49
+	+	1075	0
+	+	1074	0
+	+	1071	0
+	+	1074	0
+	+	1063	90
+	+	835	92
+	+	877	27
+	+	883	8
+	+	885	0
+	+	879	28
+	+	879	29
+	+	879	28
+	+	878	0
+	+	879	26
+	+	883	0
+	+	881	51
+	+	828	22
+	+	830	5
+	+	827	0
+	+	833	26
+	+	833	38
+	+	884	25
+	+	828	25
+	+	835	62
+	+	833	0
+	+	836	25
+	+	836	26
+	+	836	30
+	+	836	13
+	+	836	0
+
+> ~/htdocs/batch/ec/np_register_confirm.php
+	"	6	0
+
+> ~/htdocs/class/EC_Model/Service/CreateOrder.php
+	"	801	21
+	.	802	53
+	+	803	0
+	+	802	53
+
+> ~/htdocs/admin.raksul.com/shop/order_list.php
+	"	118	5
+	.	118	0
+	+	19	25
+	+	117	5
+	+	118	57
+	+	121	0
+	+	121	9
+	+	118	62
+	+	121	0
+	+	118	0
+
+> ~/htdocs/class/NP.php
+	"	69	12
+
+> ~/htdocs/raksul.com/lib_prchs/RkslPaySalesRegister.php
+	"	270	39
+
+> ~/htdocs/NERD_tree_1
+	"	28	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/batch/ec/np_payment_confirm.php
+	"	32	3
+
+> ~/htdocs/batch/ec/np_payment_check.php
+	"	22	0
+
+> ~/htdocs/NERD_tree_2
+	"	29	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Service/Imposition/Thumbnail.php
+	"	69	0
+
+> ~/htdocs/symfony/src/Raksul/NERD_tree_2
+	"	24	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Service/Imposition/ImposedDataPdf.php
+	"	94	30
+
+> ~/htdocs/class/EC_Imposition.php
+	"	1339	15
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Entity/Repository/EcImpositionRepository.php
+	"	2	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/Imposition/PlanController.php
+	"	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/Imposition/Plan/form.html.twig
+	"	238	0
+	^	236	39
+	.	236	38
+	+	236	38
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Service/Imposition/PlanService.php
+	"	1	0
+
+> ~/htdocs/batch/test.php
+	"	2	0
+	^	6	58
+	.	6	57
+	+	3	0
+	+	7	0
+	+	4	32
+	+	6	53
+	+	3	19
+	+	6	57
+
+> ~/htdocs/batch/[quickrun output]
+	"	1	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/htdocs/db.php
+	"	234	0
+
+> ~/htdocs/lib.php
+	"	481	1
+	.	27	0
+	+	27	0
+
+> ~/htdocs/class/DB.php
+	"	239	11
+
+> ~/htdocs/batch/NERD_tree_1
+	"	7	13
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/batch/NERD_tree_2
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/AccountingController.php
+	"	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Service/NP
+	"	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Service/NPService.php
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Service/Accounting/AccountingService.php
+	"	20	27
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Controller/CmsBannerController.php
+	"	34	28
+
+> ~/htdocs/admin.raksul.com/.htaccess
+	"	3	138
+	^	3	139
+	.	3	138
+	+	3	138
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/Accounting/report.html.twig
+	"	1	0
+
+> ~/htdocs/batch/NERD_tree_3
+	"	16	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/EcBudget/index.html.twig
+	"	47	0
+	.	24	0
+	+	25	11
+	+	25	0
+	+	19	22
+	+	20	0
+	+	23	12
+	+	20	13
+	+	23	13
+	+	20	36
+	+	21	0
+	+	23	0
+	+	21	37
+	+	23	0
+	+	23	37
+	+	25	0
+	+	24	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/Salesforce/basement.html.twig
+	"	1	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/Salesforce/biztelAgentstatus.html.twig
+	"	52	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/Salesforce/order.html.twig
+	"	249	0
+
+> ~/htdocs/symfony/src/Raksul/EcAdminBundle/Resources/views/UserInfo/basement.html.twig
+	"	1	0
+
+> ~/htdocs/batch/ec/data/move.php
+	"	32	12
+
+> ~/htdocs/batch/ec/data/delete.php
+	"	55	0
+
+> ~/htdocs/admin.raksul.com/shop/change_specification.php
+	"	84	8
+
+> ~/htdocs/class/EC.php
+	"	2176	11
+	.	2165	0
+	+	1079	0
+	+	2165	40
+	+	2165	0
+
+> ~/htdocs/symfony/src/Raksul/CompanySearchBundle/Controller/PrController.php
+	"	139	35
+	^	139	27
+	.	139	26
+	+	139	26
+
+> ~/htdocs/raksul.com/lib_mypage/shop_buy_step1.php
+	"	42	0
+
+> ~/htdocs/NERD_tree_3
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/raksul.com/lib_mypage/parts/shop_buy_step2/point.php
+	"	2	0
+
+> ~/htdocs/NERD_tree_4
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/raksul.com/lib_mypage/shop_buy_step2.php
+	"	180	71
+	^	180	72
+	.	180	71
+	+	180	71
+
+> ~/htdocs/asset/js/raksul/src/raksul.js
+	"	1833	0
+	.	1778	0
+	+	1294	0
+	+	1292	0
+	+	1292	0
+	+	1293	0
+	+	1715	0
+	+	1736	0
+	+	1778	14
+	+	1736	0
+	+	1778	0
+	+	1718	0
+	+	1719	0
+	+	1731	7
+	+	1731	15
+	+	1732	15
+	+	1733	0
+	+	1734	0
+	+	1735	0
+	+	1732	15
+	+	1733	15
+	+	1734	15
+	+	1735	15
+	+	1731	0
+	+	1778	0
+
+> /tmp/v7ViOrW/1.fugitiveblame
+	"	1834	0
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Resources/views/EcOrikomi/orikomiOrder.html.twig
+	"	53	8
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Resources/views/EcOrikomi/orikomiOrderComplete.html.twig
+	"	15	87
+	^	16	84
+	.	16	83
+	+	16	83
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Controller/EcOrikomiController.php
+	"	428	39
+	^	428	40
+	.	428	39
+	+	428	39
+
+> ~/htdocs/class/Shop.php
+	"	438	20
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Controller/EcItemController.php
+	"	1626	33
+
+> ~/htdocs/batch/admin/redmine_sync.php
+	"	10	4
+	^	16	11
+	.	10	0
+	+	1	0
+	+	29	12
+	+	7	0
+	+	29	17
+	+	29	16
+	+	29	0
+	+	43	0
+	+	29	106
+	+	30	5
+	+	31	30
+	+	32	40
+	+	33	0
+	+	42	5
+	+	34	4
+	+	42	4
+	+	35	11
+	+	36	12
+	+	39	9
+	+	34	0
+	+	33	29
+	+	34	0
+	+	37	22
+	+	34	0
+	+	32	23
+	+	31	23
+	+	30	23
+	+	39	36
+	+	37	32
+	+	36	29
+	+	35	30
+	+	34	40
+	+	33	40
+	+	36	30
+	+	42	0
+	+	43	0
+	+	2	0
+	+	3	19
+	+	18	0
+	+	43	0
+	+	20	53
+	+	21	4
+	+	22	4
+	+	21	29
+	+	22	30
+	+	21	38
+	+	22	38
+	+	21	55
+	+	22	55
+	+	21	55
+	+	38	31
+	+	23	48
+	+	25	80
+	+	25	82
+	+	26	20
+	+	27	0
+	+	26	34
+	+	27	9
+	+	44	15
+	+	45	5
+	+	26	16
+	+	44	12
+	+	25	58
+	+	18	54
+	+	40	45
+	+	41	11
+	+	24	58
+	+	8	17
+	+	11	0
+	+	10	40
+	+	10	8
+	+	10	0
+	+	10	10
+	+	10	38
+	+	14	14
+	+	17	0
+	+	15	32
+	+	16	10
+	+	9	0
+	+	10	0
+
+> ~/htdocs/batch/admin/wiki_sync.php
+	"	9	23
+	^	9	24
+	.	9	23
+	+	13	6
+	+	7	12
+	+	13	71
+	+	7	20
+	+	13	79
+	+	12	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	85
+	+	18	87
+	+	47	40
+	+	18	102
+	+	18	5
+	+	47	0
+	+	18	5
+	+	18	12
+	+	18	0
+	+	18	36
+	+	18	0
+	+	18	39
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	46
+	+	18	0
+	+	47	0
+	+	28	8
+	+	43	1
+	+	29	46
+	+	44	0
+	+	47	0
+	+	18	0
+	+	13	49
+	+	18	15
+	+	13	30
+	+	18	0
+	+	18	0
+	+	4	2
+	+	3	36
+	+	18	9
+	+	19	13
+	+	20	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	24	0
+	+	45	0
+	+	20	38
+	+	20	34
+	+	24	0
+	+	20	57
+	+	24	82
+	+	24	0
+	+	30	0
+	+	21	0
+	+	23	0
+	+	21	4
+	+	22	4
+	+	23	4
+	+	23	27
+	+	23	34
+	+	22	31
+	+	21	26
+	+	23	0
+	+	21	89
+	+	22	80
+	+	23	49
+	+	20	32
+	+	24	43
+	+	14	0
+	+	8	0
+	+	9	23
+	p	13	0
+
+> /tmp/vZw0MRZ/6.fugitiveblame
+	"	258	0
+
+> ~/htdocs/etc/irodori.ini.php
+	"	208	12
+
+> ~/htdocs/symfony/src/Raksul/EcBundle/Service/Item/Option/Fold.php
+	"	15	0
+
+> ~/htdocs/class/PartnerAPI.php
+	"	558	17
+
+> ~/htdocs/etc/mysql/dev.ini.php
+	"	45	23
+	.	47	0
+	+	79	0
+	+	43	0
+	+	25	0
+	+	43	11
+	+	49	29
+	+	49	30
+	+	49	29
+	+	57	0
+	+	49	26
+	+	49	31
+	+	57	0
+	+	57	0
+	+	49	0
+	+	57	0
+	+	47	0
+
+> ~/htdocs/etc/mysql/prod.ini.php
+	"	2	0
+
+> ~/.ssh/config
+	"	1	0
+
+> ~/htdocs/etc/mysql.ini.php
+	"	1	0
+
+> /tmp/ve5V3em/1.fugitiveblame
+	"	12	0
+
+> ~/htdocs/batch/admin/[quickrun output]
+	"	1	0
+	.	18	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	18	0
+	+	1	0
+	+	18	0
+
+> ~/htdocs/raksul.com/.htaccess
+	"	32	32
+	^	32	33
+	.	32	32
+	+	32	32
+
+> ~/htdocs/batch/ec/report/daily_total_monitoring.php
+	"	93	8
+	.	94	0
+	+	96	0
+	+	95	0
+	+	95	45
+	+	94	75
+	+	94	0
+	+	95	0
+	+	94	42
+	+	95	0
+	+	93	30
+	+	100	24
+	+	100	0
+	+	101	0
+	+	100	0
+	+	100	0
+	+	100	0
+	+	93	8
+	+	93	8
+	+	93	0
+	+	78	42
+	+	85	102
+	+	84	87
+	+	94	0
+	+	93	89
+	+	94	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/top.php
+	"	22	133
+	^	22	217
+	.	22	133
+	+	79	50
+	+	81	35
+	+	79	95
+	+	79	180
+	+	79	184
+	+	79	0
+	+	80	49
+	+	82	89
+	+	80	46
+	+	82	0
+	+	79	49
+	+	82	89
+	+	82	0
+	+	82	104
+	+	82	0
+	+	84	0
+	+	85	27
+	+	85	0
+	+	83	29
+	+	20	29
+	+	95	0
+	+	95	0
+	+	8	0
+	+	110	0
+	+	110	0
+	+	110	22
+	+	95	0
+	+	128	0
+	+	84	125
+	+	84	91
+	+	84	107
+	+	110	0
+	+	127	0
+	+	20	28
+	+	110	0
+	+	111	79
+	+	108	83
+	+	97	0
+	+	101	25
+	+	100	32
+	+	99	41
+	+	98	44
+	+	101	0
+	+	110	0
+	+	113	0
+	+	111	0
+	+	113	0
+	+	114	0
+	+	114	0
+	+	125	0
+	+	126	0
+	+	120	0
+	+	115	44
+	+	98	31
+	+	114	0
+	+	117	0
+	+	126	0
+	+	121	0
+	+	116	91
+	+	111	151
+	+	116	97
+	+	79	196
+	+	20	43
+	+	21	38
+	+	23	27
+	+	22	0
+	+	22	80
+	+	22	92
+	+	22	93
+	+	22	93
+	+	22	95
+	+	22	92
+	+	22	171
+	+	22	171
+	+	22	51
+	+	22	167
+	+	22	56
+	+	22	205
+	+	22	216
+	+	22	133
+
+> ~/htdocs/biz.raksul.com/lib_partner/dl.php
+	"	22	31
+	.	41	0
+	+	11	0
+	+	12	0
+	+	22	0
+	+	41	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/update.php
+	"	82	1
+	^	80	40
+	.	78	0
+	+	75	0
+	+	44	0
+	+	75	0
+	+	45	0
+	+	78	0
+	+	80	75
+	+	78	0
+
+> /tmp/vyffNOL/17.fugitiveblame
+	"	55	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/multi_dl.php
+	"	11	0
+	^	12	58
+	.	11	0
+	+	2	21
+	+	4	44
+	+	6	0
+	+	5	36
+	+	3	15
+	+	8	67
+	+	11	37
+	+	13	0
+	+	11	0
+	+	11	38
+	+	5	0
+	+	5	15
+	+	5	0
+	+	7	25
+	+	2	0
+	+	11	0
+	+	5	22
+	+	7	0
+	+	11	0
+	+	12	57
+	+	13	0
+	+	11	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/export.php
+	"	40	3
+	^	282	34
+	.	40	0
+	+	179	0
+	+	181	0
+	+	186	117
+	+	30	0
+	+	32	0
+	+	37	117
+	+	189	0
+	+	190	47
+	+	40	28
+	+	20	0
+	+	22	0
+	+	33	0
+	+	37	0
+	+	182	0
+	+	186	0
+	+	278	0
+	+	282	0
+	+	314	0
+	+	315	0
+	+	282	0
+	+	190	0
+	+	278	32
+	+	282	33
+	+	40	0
+
+> ~/htdocs/biz.raksul.com/partner.php
+	"	121	0
+	.	122	0
+	+	122	36
+	+	122	84
+	+	122	0
+	+	122	0
+	+	122	147
+	+	122	0
+	+	122	27
+	+	122	0
+	+	122	0
+	+	122	0
+	+	122	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/view_indivisual.php
+	"	26	0
+	^	23	155
+	.	23	0
+	+	27	0
+	+	27	0
+	+	26	0
+	+	26	0
+	+	22	0
+	+	22	1
+	+	23	154
+	+	26	0
+	+	22	0
+	+	23	0
+
+> ~/htdocs/biz.raksul.com/lib_partner/confirm_receive.php
+	"	1	0
+
+> ~/htdocs/biz.raksul.com/NERD_tree_1
+	"	29	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> batch/ec/report/daily_total_monitoring.php
+	"	1	0

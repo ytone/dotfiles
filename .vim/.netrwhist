@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/y.tonegawa/htdocs/raksul.com/lib_mypage'
+let g:netrw_dirhist_2='/home/y.tonegawa/htdocs/admin.raksul.com/shop/order_specifics'
+let g:netrw_dirhist_3='/home/y.tonegawa/htdocs/symfony/src/Raksul/EcBundle/Service'
+let g:netrw_dirhist_4='/home/y.tonegawa/htdocs/symfony/src/Raksul/EcAdminBundle/Service/Imposition'

@@ -1,0 +1,7 @@
+[user]
+	email = y.tonegawa@raksul.com
+	name = Yuta Tonegawa
+[push]
+	default = matching
+[alias]
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %

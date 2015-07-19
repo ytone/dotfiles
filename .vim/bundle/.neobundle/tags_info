@@ -1,0 +1,11 @@
+grep.vim
+lightline.vim
+neobundle.vim
+nerdtree
+surround.vim
+syntastic
+vim-abolish
+vim-autoclose
+vim-fugitive
+vim-quickrun
+vim-trailing-whitespace
