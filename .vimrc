@@ -4,6 +4,7 @@ augroup InsertHook
 autocmd!
 autocmd InsertEnter * highlight StatusLine guifg=#ccdc90 guibg=#2E4340
 autocmd InsertLeave * highlight StatusLine guifg=#2E4340 guibg=#ccdc90
+autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python %
 augroup END
 set smartindent
 set number
@@ -37,39 +38,35 @@ let g:apex_backup_folder="/tmp/apex/gvim-backup"
 let g:apex_deployment_error_log="apex_deployment_error_log"
 
 
-"---------------------------
-" Start Neobundle Settings.
-"---------------------------
-" bundleで管理するディレクトリを指定
-set runtimepath+=~/.vim/bundle/neobundle.vim/
- 
-" Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
- 
-" neobundle自体をneobundleで管理
-NeoBundleFetch 'Shougo/neobundle.vim'
 
-" NeoBundle
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Townk/vim-autoclose'
-NeoBundle 'grep.vim'
-NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'itchyny/lightline.vim'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'thinca/vim-quickrun'
-NeoBundle 'surround.vim'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'tpope/vim-abolish'
- 
-call neobundle#end()
- 
+set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+
+call dein#begin(expand('~/.vim/dein'))
+
+call dein#add('Shougo/dein.vim')
+call dein#add('Shougo/vimproc.vim', {'build': 'make'})
+
+call dein#add('Shougo/neocomplete.vim')
+call dein#add('Shougo/neomru.vim')
+call dein#add('Shougo/neosnippet')
+
+" (中略)
+call dein#add('scrooloose/nerdtree')
+call dein#add('Townk/vim-autoclose')
+call dein#add('grep.vim')
+call dein#add('bronson/vim-trailing-whitespace')
+call dein#add('itchyny/lightline.vim')
+call dein#add('scrooloose/syntastic')
+call dein#add('thinca/vim-quickrun')
+call dein#add('surround.vim')
+call dein#add('tpope/vim-fugitive')
+call dein#add('tpope/vim-abolish')
+
+call dein#end()
+
+:call dein#install()
+
+
 " Required:
 filetype plugin indent on
  
-" 未インストールのプラグインがある場合、インストールするかどうかを尋ねてくれるようにする設定
-" 毎回聞かれると邪魔な場合もあるので、この設定は任意です。
-NeoBundleCheck
- 
-"-------------------------
-" End Neobundle Settings.
-"-------------------------

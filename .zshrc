@@ -61,9 +61,9 @@ SAVEHIST=100000
 #alias ls='ls --color=auto'
 #alias ll='ls -l'
 alias grep='grep --color'
-alias l.='ls -d .* --color=auto'
-alias ll='ls -l --color=auto'
-alias ls='ls --color=auto'
+alias l.='ls -d .* -G'
+alias ll='ls -l -G'
+alias ls='ls -G'
 alias scdr='screen -dr'
 alias gst='git status'
 alias gd='git diff --color'
@@ -92,16 +92,7 @@ alias cdap='cd ~/htdocs/class/CodeIgniter/application'
 alias apc='php ~/htdocs/symfony/app/console'
 alias screen='screen -U'
 alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
-alias ws1='sudo -u raksul ssh 10.1.3.167'
-alias ws2='sudo -u raksul ssh 10.1.3.176'
-alias ws3='sudo -u raksul ssh 10.1.1.100'
-alias ws4='sudo -u raksul ssh 10.1.0.147'
-alias ws10='sudo -u raksul ssh 10.1.3.167'
-alias ws11='sudo -u raksul ssh 10.1.1.101'
-alias ws12='sudo -u raksul ssh 10.1.0.124'
-alias ws13='sudo -u raksul ssh 10.1.3.0'
-alias db1='sudo -u raksul ssh 10.1.1.166'
-alias db2='sudo -u raksul ssh 10.1.1.50'
+alias updatedb='sudo /usr/libexec/locate.updatedb'
 #------------------------------------------------------------------------------------------#
 # bindkeys                                                                                 #
 #------------------------------------------------------------------------------------------#
@@ -201,3 +192,12 @@ function peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+
+# go path
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
+
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/bin:$PATH"
+eval "$(pyenv init -)"

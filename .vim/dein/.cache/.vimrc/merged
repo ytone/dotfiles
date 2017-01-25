@@ -1,0 +1,2 @@
+100
+['Shougo/dein.vim', 'Shougo/neocomplete.vim', 'Shougo/neomru.vim', 'Shougo/neosnippet', 'Shougo/vimproc.vim', 'Townk/vim-autoclose', 'bronson/vim-trailing-whitespace', 'grep.vim', 'itchyny/lightline.vim', 'scrooloose/nerdtree', 'scrooloose/syntastic', 'surround.vim', 'thinca/vim-quickrun', 'tpope/vim-abolish', 'tpope/vim-fugitive']
